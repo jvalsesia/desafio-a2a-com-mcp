@@ -1,0 +1,11 @@
+[project]
+name = "desafio-a2a-com-mcp"
+version = "0.1.0"
+description = "Desafio A Ponte: Agente A2A com MCP por dentro"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "starlette>=0.38.0",
+    "uvicorn>=0.30.0",
+    "httpx>=0.27.0",
+]
