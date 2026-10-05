@@ -14,16 +14,15 @@ Clone o repositório e crie o ambiente virtual com as dependências instaladas.
 
 Com `uv` (recomendado):
 ```bash
-uv venv
+uv sync
 source .venv/bin/activate
-uv pip install -e .
 ```
 
 Ou com `python3 -m venv` / `pip`:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install starlette uvicorn httpx
+pip install -e .
 ```
 
 ### 2. Configurar a Chave de Integridade
